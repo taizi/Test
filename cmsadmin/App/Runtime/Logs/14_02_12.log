@@ -1,0 +1,52 @@
+[ 2014-02-12T09:18:10+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-02-12T09:18:10+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-02-12T09:18:10+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-02-12T10:48:24+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-02-12T14:08:47+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004633s ]
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1392185327,'127.0.0.1') [ RunTime:0.118697s ]
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004306s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 30 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY id desc LIMIT 0,30   [ RunTime:0.000480s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001342s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000734s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000739s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000617s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003588s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2014-02-12T14:09:00+08:00 ] 127.0.0.1 /cmsinfo/type/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004160s ]
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/type/index','Cmsinfo','Type','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"type\",\"index\"]}}','GET','magic','玄子',1392185340,'127.0.0.1') [ RunTime:0.016441s ]
+SQL: SHOW COLUMNS FROM `webcms_news_type` [ RunTime:0.004724s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\TypeAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_type` LIMIT 1   [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\TypeAction.class.php 第 30 行.
+SQL: SELECT `id`,`type_name`,`description`,`status`,`sort` FROM `webcms_news_type` ORDER BY id desc LIMIT 0,30   [ RunTime:0.000472s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001362s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001434s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000732s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000700s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000586s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002942s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001120s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001189s ]
+

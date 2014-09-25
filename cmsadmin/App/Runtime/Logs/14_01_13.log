@@ -1,0 +1,74 @@
+[ 2014-01-13T09:17:52+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-13T09:17:52+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-01-13T13:59:03+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003187s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389592743,'127.0.0.1') [ RunTime:0.000466s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389592743,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004094s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 30 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY id desc LIMIT 0,30   [ RunTime:0.000468s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001265s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001322s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000653s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000665s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000536s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002731s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2014-01-13T14:08:38+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.008623s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389593317,'127.0.0.1') [ RunTime:0.000854s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389593317,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004313s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 30 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY id desc LIMIT 0,30   [ RunTime:0.000469s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001468s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001289s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000862s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000908s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004377s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2014-01-13T14:09:15+08:00 ] 127.0.0.1 /Cmsinfo/Position/detect_name
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003744s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Cmsinfo/Position/detect_name','Cmsinfo','Position','detect_name','{\"get\":{\"_URL_\":[\"Cmsinfo\",\"Position\",\"detect_name\"]},\"post\":{\"p_name\":\"\\u641c\\u7d22\\u9875-\\u7f6e\\u9876\\u63a8\\u8350\",\"p_act\":\"insert\"}}','POST','magic','玄子',1389593355,'127.0.0.1') [ RunTime:0.000542s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Cmsinfo/Position/detect_name','Cmsinfo','Position','detect_name','{\"get\":{\"_URL_\":[\"Cmsinfo\",\"Position\",\"detect_name\"]},\"post\":{\"p_name\":\"\\u641c\\u7d22\\u9875-\\u7f6e\\u9876\\u63a8\\u8350\",\"p_act\":\"insert\"}}','POST','magic','玄子',1389593355,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.003972s ]
+SQL: SELECT * FROM `webcms_news_position` WHERE ( `position_name` = '搜索页-置顶推荐' ) LIMIT 1   [ RunTime:0.000460s ]
+
+[ 2014-01-13T15:04:58+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-13T15:58:28+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-13T16:01:49+08:00 ] ERR: (ThinkException) 非法操作:insert

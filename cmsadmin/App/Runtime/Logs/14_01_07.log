@@ -1,0 +1,2515 @@
+[ 2014-01-07T09:29:47+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T09:29:47+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-01-07T09:29:47+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-01-07T09:29:51+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T09:29:57+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T10:21:30+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T10:28:14+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T10:29:13+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T13:47:11+08:00 ] ERR: (ThinkException) Model:_count您所请求的方法不存在！
+[ 2014-01-07T15:23:56+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004526s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389079436,'127.0.0.1') [ RunTime:0.000537s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389079436,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005188s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000367s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000429s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001361s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001473s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001145s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000706s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000636s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003474s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2014-01-07T15:23:57+08:00 ] ERR: (ThinkException) 无法加载模块:Pu
+[ 2014-01-07T15:34:39+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004475s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080079,'127.0.0.1') [ RunTime:0.000524s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080079,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005333s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000429s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001272s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001360s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000740s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000789s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000722s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003253s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001066s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2014-01-07T15:34:39+08:00 ] ERR: (ThinkException) 无法加载模块:Pu
+[ 2014-01-07T15:35:13+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006256s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080113,'127.0.0.1') [ RunTime:0.000903s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080113,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005095s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000973s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001405s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001503s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000731s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000682s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000649s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003035s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2014-01-07T15:35:13+08:00 ] ERR: (ThinkException) 无法加载模块:Pu
+[ 2014-01-07T15:35:17+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004937s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080116,'127.0.0.1') [ RunTime:0.000509s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080116,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005320s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000811s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000738s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001659s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001751s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001071s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000951s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000935s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004166s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2014-01-07T15:35:49+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004251s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080149,'127.0.0.1') [ RunTime:0.000520s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080149,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005122s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000424s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001360s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001466s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000752s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000605s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000642s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002972s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000942s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2014-01-07T15:37:15+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005322s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080235,'127.0.0.1') [ RunTime:0.001133s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080235,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005476s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.001070s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000923s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001837s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001939s ]
+NOTIC: [2] include_once(.insert.php): failed to open stream: No such file or directory E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Tpl\Position\index.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening '.insert.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\cmsadmin\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Tpl\Position\index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000768s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000782s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000679s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003236s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2014-01-07T15:37:47+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004257s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080267,'127.0.0.1') [ RunTime:0.000517s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080267,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005017s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000650s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000644s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001316s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001409s ]
+NOTIC: [2] include_once(./insert.php): failed to open stream: No such file or directory E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Tpl\Position\index.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening './insert.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\cmsadmin\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Tpl\Position\index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000757s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000759s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000632s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003217s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2014-01-07T15:38:01+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004182s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080281,'127.0.0.1') [ RunTime:0.000596s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080281,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004931s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000302s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002239s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002433s ]
+NOTIC: [2] include_once(./insert.php): failed to open stream: No such file or directory E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Tpl\Position\index.php 第 4 行.
+NOTIC: [2] include_once(): Failed opening './insert.php' for inclusion (include_path='.;E:\xampp\php\PEAR;E:\xampp\htdocs\cmsadmin\ThinkPHP/Extend/Vendor/') E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Tpl\Position\index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000770s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000711s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003254s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001045s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2014-01-07T15:45:47+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004758s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080747,'127.0.0.1') [ RunTime:0.000527s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080747,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.007217s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000463s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001397s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001496s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000730s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001161s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003822s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2014-01-07T15:46:15+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004072s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080775,'127.0.0.1') [ RunTime:0.000398s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080775,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004825s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000430s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001376s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001461s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000733s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000640s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003297s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2014-01-07T15:46:19+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T15:47:11+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004454s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080831,'127.0.0.1') [ RunTime:0.000516s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080831,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005466s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000438s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001528s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001634s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000889s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001036s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000811s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003905s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2014-01-07T15:47:46+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004277s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080866,'127.0.0.1') [ RunTime:0.000533s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080866,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005163s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000340s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000440s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001469s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001571s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000744s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000635s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000660s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003053s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2014-01-07T15:47:52+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.007148s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080872,'127.0.0.1') [ RunTime:0.000893s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389080872,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005066s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000419s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002416s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002604s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000991s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001223s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001038s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004592s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2014-01-07T15:47:56+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T15:51:35+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T15:52:42+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004182s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081162,'127.0.0.1') [ RunTime:0.000528s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081162,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004948s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000322s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001431s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001503s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000730s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000696s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000657s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003098s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001078s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2014-01-07T16:00:48+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004234s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081648,'127.0.0.1') [ RunTime:0.000537s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081648,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006319s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000665s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000460s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001567s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001646s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001294s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001282s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000988s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005099s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001258s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2014-01-07T16:01:31+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004056s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081691,'127.0.0.1') [ RunTime:0.000523s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081691,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.007106s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000329s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001410s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000911s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001384s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000706s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004709s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002119s ]
+
+[ 2014-01-07T16:01:51+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004019s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081711,'127.0.0.1') [ RunTime:0.000507s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081711,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005379s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000340s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002907s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003051s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000881s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000769s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000609s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003414s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2014-01-07T16:04:09+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004283s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081849,'127.0.0.1') [ RunTime:0.000513s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081849,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006780s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000779s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000432s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001375s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000736s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000897s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000884s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004273s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001349s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2014-01-07T16:05:17+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004065s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081916,'127.0.0.1') [ RunTime:0.000514s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081916,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005689s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000358s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000422s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001799s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001864s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000753s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000731s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003034s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2014-01-07T16:05:46+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004175s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081946,'127.0.0.1') [ RunTime:0.000518s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081946,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005279s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000416s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000396s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001657s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001722s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001038s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001087s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001252s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004807s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2014-01-07T16:06:04+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004700s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081964,'127.0.0.1') [ RunTime:0.000542s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389081964,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005644s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000400s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000439s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001379s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001451s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000767s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000765s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000626s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003113s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2014-01-07T16:06:48+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004258s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082008,'127.0.0.1') [ RunTime:0.000531s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082008,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005462s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000802s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000943s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001912s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001977s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001389s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000954s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000692s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004227s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2014-01-07T16:10:07+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004702s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082207,'127.0.0.1') [ RunTime:0.000866s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082207,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005312s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000448s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001395s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000732s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000768s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000858s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2014-01-07T16:11:46+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004936s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082306,'127.0.0.1') [ RunTime:0.001081s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082306,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006061s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000303s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001988s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002097s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000808s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000722s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000635s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003132s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2014-01-07T16:12:24+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004539s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082344,'127.0.0.1') [ RunTime:0.000529s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082344,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004981s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000393s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000425s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001527s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000724s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000760s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000643s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003107s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2014-01-07T16:12:49+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004099s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082369,'127.0.0.1') [ RunTime:0.000451s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082369,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005171s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000439s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001417s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001478s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000725s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000742s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000758s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003241s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001110s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2014-01-07T16:13:27+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004145s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082407,'127.0.0.1') [ RunTime:0.000532s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082407,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005735s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000373s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000431s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001613s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001687s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000909s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000923s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000803s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003784s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2014-01-07T16:13:40+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005215s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082420,'127.0.0.1') [ RunTime:0.001058s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082420,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005220s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000393s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000381s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004397s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004523s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000728s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000713s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000650s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003076s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2014-01-07T16:13:54+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004434s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082434,'127.0.0.1') [ RunTime:0.000510s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082434,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005102s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000455s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001392s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000732s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000773s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000635s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003743s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2014-01-07T16:15:35+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004837s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082535,'127.0.0.1') [ RunTime:0.000526s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082535,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005148s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000641s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000931s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001686s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001768s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000882s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001018s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000722s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004299s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2014-01-07T16:18:41+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004185s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082721,'127.0.0.1') [ RunTime:0.000534s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082721,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.008993s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000424s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001509s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001574s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000817s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000834s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001051s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004401s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2014-01-07T16:21:09+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004388s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082869,'127.0.0.1') [ RunTime:0.000539s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082869,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005252s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000916s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001987s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002092s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000730s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000961s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000673s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003399s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2014-01-07T16:21:22+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006139s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082882,'127.0.0.1') [ RunTime:0.000534s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082882,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005011s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000307s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002803s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002926s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000849s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000616s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003017s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000954s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2014-01-07T16:22:37+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004272s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082957,'127.0.0.1') [ RunTime:0.000524s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082957,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.007903s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000424s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001396s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001467s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000734s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000758s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000984s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003584s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2014-01-07T16:23:16+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004492s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082996,'127.0.0.1') [ RunTime:0.000556s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389082996,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005148s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000365s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000450s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001615s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001688s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000778s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000668s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000646s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003097s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001242s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2014-01-07T16:23:53+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005834s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083033,'127.0.0.1') [ RunTime:0.000521s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083033,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005575s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000857s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000839s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001411s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001499s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000956s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000691s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000649s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003289s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2014-01-07T16:24:43+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004074s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083083,'127.0.0.1') [ RunTime:0.000513s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083083,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005220s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000436s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001404s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001465s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000738s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000783s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000652s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003167s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2014-01-07T16:24:55+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004388s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083095,'127.0.0.1') [ RunTime:0.000509s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083095,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005070s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000432s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001802s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001883s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000887s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000813s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004117s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001191s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2014-01-07T16:25:14+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006065s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083114,'127.0.0.1') [ RunTime:0.000529s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083114,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005376s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000429s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001397s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001478s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000829s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000641s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000649s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003090s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2014-01-07T16:25:41+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006516s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083141,'127.0.0.1') [ RunTime:0.001043s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083141,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005265s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000979s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000310s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002009s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002122s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000978s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000869s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000600s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003417s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2014-01-07T16:26:13+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005058s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083173,'127.0.0.1') [ RunTime:0.000514s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083173,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005308s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000400s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000420s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001564s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001640s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000811s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000830s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001135s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004426s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2014-01-07T16:26:37+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004364s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083197,'127.0.0.1') [ RunTime:0.000529s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083197,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004847s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000403s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001394s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000989s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000920s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000824s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003741s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2014-01-07T16:27:02+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004331s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083222,'127.0.0.1') [ RunTime:0.000514s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083222,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005255s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000566s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000452s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001377s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001436s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000723s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000808s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000661s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003159s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2014-01-07T16:27:40+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004350s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083260,'127.0.0.1') [ RunTime:0.000519s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083260,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005204s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000407s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000445s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001574s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001650s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000737s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000761s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000639s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003139s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001004s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2014-01-07T16:27:59+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006279s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083279,'127.0.0.1') [ RunTime:0.000527s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083279,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005087s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000326s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001653s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001833s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001092s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000716s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003635s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2014-01-07T16:28:17+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004065s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083297,'127.0.0.1') [ RunTime:0.000514s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083297,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005511s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000406s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000441s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001685s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001758s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000741s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001081s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000695s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003524s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001153s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2014-01-07T16:29:49+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.007979s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083389,'127.0.0.1') [ RunTime:0.000520s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083389,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005289s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000406s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000433s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001482s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001546s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000882s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000693s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000651s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003462s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2014-01-07T16:30:32+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004377s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083432,'127.0.0.1') [ RunTime:0.000459s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083432,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006304s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000871s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000904s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001712s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000746s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000775s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003394s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2014-01-07T16:31:00+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004746s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083460,'127.0.0.1') [ RunTime:0.000513s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083460,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005168s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000432s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001442s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001014s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000858s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001144s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004660s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2014-01-07T16:31:53+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004105s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083513,'127.0.0.1') [ RunTime:0.000522s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083513,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005335s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000430s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001586s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000749s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000756s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000689s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003514s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2014-01-07T16:33:11+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004116s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083591,'127.0.0.1') [ RunTime:0.000516s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083591,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.007217s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000458s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001534s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000888s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001016s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000807s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004185s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2014-01-07T16:34:04+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005674s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083644,'127.0.0.1') [ RunTime:0.000522s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083644,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.009321s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000838s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000734s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001492s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000776s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000712s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000738s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003304s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001020s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2014-01-07T16:34:09+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004439s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083649,'127.0.0.1') [ RunTime:0.000525s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083649,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005215s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000422s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000422s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001367s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001426s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000812s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001153s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000928s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004756s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001248s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2014-01-07T16:34:14+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004098s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083654,'127.0.0.1') [ RunTime:0.000519s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083654,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005469s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000427s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001502s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000760s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000596s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000810s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003292s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002534s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002644s ]
+
+[ 2014-01-07T16:34:43+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006008s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083683,'127.0.0.1') [ RunTime:0.001082s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083683,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005650s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000910s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000822s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001403s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000856s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000793s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000615s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003982s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001028s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2014-01-07T16:34:48+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006632s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083688,'127.0.0.1') [ RunTime:0.000534s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083688,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005359s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000389s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002795s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002945s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000726s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000936s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000628s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003255s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000972s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2014-01-07T16:34:52+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005747s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083692,'127.0.0.1') [ RunTime:0.000513s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083692,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005278s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000406s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000443s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001400s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000743s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000747s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000619s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003461s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2014-01-07T16:35:00+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006670s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083700,'127.0.0.1') [ RunTime:0.000506s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083700,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005199s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000319s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001852s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002072s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001026s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000722s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000606s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003330s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2014-01-07T16:35:12+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004197s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083712,'127.0.0.1') [ RunTime:0.000510s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083712,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005713s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000419s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001763s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001837s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000728s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000762s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003195s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000986s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2014-01-07T16:35:18+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004350s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083718,'127.0.0.1') [ RunTime:0.000520s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083718,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005161s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000422s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001398s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001469s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000892s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000721s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000659s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003219s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000937s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2014-01-07T16:35:32+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006890s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083732,'127.0.0.1') [ RunTime:0.000525s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083732,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.009588s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000434s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001397s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001457s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000740s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000681s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000637s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003272s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001174s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2014-01-07T16:35:59+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004798s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083759,'127.0.0.1') [ RunTime:0.000443s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083759,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.024844s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000431s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001394s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001504s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000734s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000924s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003686s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001153s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2014-01-07T16:36:35+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004791s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083795,'127.0.0.1') [ RunTime:0.000514s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083795,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.007671s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000765s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.001096s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001559s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001622s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000793s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000983s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000800s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003663s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002360s ]
+
+[ 2014-01-07T16:36:48+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004712s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083808,'127.0.0.1') [ RunTime:0.000826s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083808,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006484s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000427s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001615s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001698s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000730s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000788s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000730s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003262s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000984s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2014-01-07T16:36:55+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005105s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083815,'127.0.0.1') [ RunTime:0.000485s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083815,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006841s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000825s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000500s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001434s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001520s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000843s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000805s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000648s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003586s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001051s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2014-01-07T16:37:14+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004322s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083834,'127.0.0.1') [ RunTime:0.000531s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083834,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004930s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000361s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000421s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001420s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001493s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000874s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001012s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000719s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003633s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001092s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2014-01-07T16:37:23+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006287s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083843,'127.0.0.1') [ RunTime:0.000431s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083843,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.007400s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000400s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000430s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001507s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000797s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000714s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003721s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002025s ]
+
+[ 2014-01-07T16:38:08+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004152s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083888,'127.0.0.1') [ RunTime:0.000513s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083888,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005017s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000416s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001524s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000770s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000665s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000639s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003189s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000996s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2014-01-07T16:38:30+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004678s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083910,'127.0.0.1') [ RunTime:0.000513s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083910,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005482s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000819s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000953s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002317s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002435s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001053s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000980s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004283s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2014-01-07T16:39:08+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004182s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083948,'127.0.0.1') [ RunTime:0.000532s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083948,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005732s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000435s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001411s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001472s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000836s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000756s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000688s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003476s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001076s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2014-01-07T16:39:49+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005673s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083989,'127.0.0.1') [ RunTime:0.000503s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389083989,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005056s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000407s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000552s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001587s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001675s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000756s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000807s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000800s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003677s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2014-01-07T16:40:35+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005287s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084035,'127.0.0.1') [ RunTime:0.000517s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084035,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005323s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000384s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001740s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001924s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001598s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001023s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000816s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004759s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2014-01-07T16:40:53+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005051s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084053,'127.0.0.1') [ RunTime:0.000474s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084053,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006458s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000449s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001611s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001689s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000753s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000730s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000642s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003080s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2014-01-07T16:41:08+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005557s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084067,'127.0.0.1') [ RunTime:0.000474s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084067,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006476s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000298s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000289s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001998s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002068s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000962s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000735s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000941s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004061s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2014-01-07T16:41:30+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004554s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084090,'127.0.0.1') [ RunTime:0.000517s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084090,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.007471s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000711s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000427s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001598s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001671s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000772s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000784s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003188s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2014-01-07T16:42:33+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006313s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084153,'127.0.0.1') [ RunTime:0.001243s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084153,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005577s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000327s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002347s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002465s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000796s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000676s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000644s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003339s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2014-01-07T16:42:40+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004668s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084160,'127.0.0.1') [ RunTime:0.000529s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084160,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005394s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000432s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001744s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001838s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000728s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000779s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001050s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003950s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2014-01-07T16:42:48+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.007615s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084168,'127.0.0.1') [ RunTime:0.000542s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084168,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005338s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000418s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000409s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001581s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001652s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000729s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000791s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000635s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003089s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2014-01-07T16:43:09+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004155s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084189,'127.0.0.1') [ RunTime:0.000539s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084189,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.008070s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000428s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001544s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001235s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001097s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000723s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004283s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2014-01-07T16:45:11+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004702s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084311,'127.0.0.1') [ RunTime:0.000524s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084311,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005107s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000433s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001693s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001760s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000816s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000780s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000666s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003254s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2014-01-07T16:49:29+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004102s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084568,'127.0.0.1') [ RunTime:0.000518s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389084568,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006944s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000486s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000447s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001428s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000739s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001063s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000702s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003688s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001069s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2014-01-07T17:09:08+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004568s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389085748,'127.0.0.1') [ RunTime:0.000528s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389085748,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005597s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000404s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001727s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001803s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000880s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000859s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000812s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003645s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001263s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2014-01-07T17:11:40+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T17:13:20+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-07T17:13:28+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.006571s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086008,'127.0.0.1') [ RunTime:0.000920s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086008,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005277s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000334s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001767s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001853s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001192s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000895s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001134s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004318s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000967s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2014-01-07T17:14:53+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004612s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086093,'127.0.0.1') [ RunTime:0.000452s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086093,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.007180s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000319s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000473s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001403s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001480s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000734s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000729s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001080s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003976s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2014-01-07T17:14:57+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004223s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086097,'127.0.0.1') [ RunTime:0.000459s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086097,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.009309s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000385s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000470s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001493s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001560s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000731s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001291s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000720s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003713s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2014-01-07T17:15:04+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.007816s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086104,'127.0.0.1') [ RunTime:0.001309s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086104,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006549s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000702s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000354s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001465s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000793s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000814s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001876s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004833s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2014-01-07T17:27:49+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004897s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086869,'127.0.0.1') [ RunTime:0.000510s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389086869,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.009590s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000370s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001826s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001917s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002948s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001490s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000752s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006344s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2014-01-07T17:30:21+08:00 ] 127.0.0.1 /cmsinfo/position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005468s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389087021,'127.0.0.1') [ RunTime:0.000474s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"position\",\"index\"]}}','GET','magic','玄子',1389087021,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006159s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.000360s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001703s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001026s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000837s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000693s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003787s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001100s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2014-01-07T17:31:01+08:00 ] 127.0.0.1 /Cmsinfo/Position/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.007244s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Cmsinfo/Position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"Cmsinfo\",\"Position\",\"index\"]}}','GET','magic','玄子',1389087061,'127.0.0.1') [ RunTime:0.000459s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Cmsinfo/Position/index','Cmsinfo','Position','index','{\"get\":{\"_URL_\":[\"Cmsinfo\",\"Position\",\"index\"]}}','GET','magic','玄子',1389087061,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.006104s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_position` LIMIT 1   [ RunTime:0.000845s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\PositionAction.class.php 第 29 行.
+SQL: SELECT `id`,`position_name`,`description`,`status`,`sort`,`create_time` FROM `webcms_news_position` ORDER BY sort asc LIMIT 0,30   [ RunTime:0.001044s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001983s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002398s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000796s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000789s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000644s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003256s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+

@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+*{margin:0px;padding:0px;}
+body{background:#2E363F; font-size:12px;}
+h1{ font-size:18px; color:#666; padding:6px;}
+h2{ font-size:16px;color:#666;padding:6px;}
+h3{ font-size:14px;color:#666;padding:6px;}
+h4{ font-size:12px;color:#666;padding:6px;}
+.clear{ clear:both;}
+
+.font_white{ color:#999; text-decoration:none;}
+.font_white:link {color:#999;}
+.font_white:visited {color:#999;}
+.font_white:hover {color:#fff; text-decoration:underline;}
+.font_white:active {color:#999;}
+
+.btn_red{ color:#fff;background:#AE0620; text-decoration:none; display:block; width:60px; padding:3px 6px; text-align:center; margin:1px;}
+.btn_red:link {color:#fff;}
+.btn_red:visited {color:#fff;}
+.btn_red:hover {color:#fff; text-decoration:underline; background:#F00;}
+.btn_red:active {color:##fff;}
+
+.btn_blue{ color:#fff;background:#039; text-decoration:none; display:block; width:60px; padding:3px 6px; text-align:center;margin:1px;}
+.btn_blue:link {color:#fff;}
+.btn_blue:visited {color:#fff;}
+.btn_blue:hover {color:#fff; text-decoration:underline; background:#06C;}
+.btn_blue:active {color:##fff;}
+
+.btn_gray{ color:#fff;background:#888; text-decoration:none; display:block; width:60px; padding:3px 6px; text-align:center;margin:1px;}
+.btn_gray:link {color:#fff;}
+.btn_gray:visited {color:#fff;}
+.btn_gray:hover {color:#fff; text-decoration:underline; background:#666;}
+.btn_gray:active {color:##fff;}
+
+/*弹窗外框*/
+.show_window{position:absolute;left:0px;top:0px;z-index:300001;display:none}
+.show_window .show_window_bj{ background:#0665aa;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity:0.5;opacity:0.5;z-index:300002;position:relative;}
+.show_window .show_html{position:absolute;  left:0px; top:0px;  z-index:1001;font-size:12px; padding:0px;}
+.show_window .show_html .closecmd{position:absolute; font-family:Verdana; font-weight:bold;cursor:pointer; right:-10px; top:-10px; padding:3px 6px; z-index:300004;font-size:12px; background:#060; color:#FFF;}
+
+.login{width:300px;margin:0px auto;padding:10px 20px;}
+.login dl{line-height:30px; height:30px;}
+.login dl lable{color:#fff;}
+.login legend{color:#fff; }
+.top{height:30px;line-height:30px;color:#999;text-align:center;font-size:12px;}
+.top .logo{width:220px;height:auto;float:left; display:block; }
+
+.top .info{width:auto;float:left; border-left:1px solid #000;border-right:1px solid #2e363f; padding:0px 6px;}
+
+.area{ width:100%;height:auto;background:#2E363F;}
+.menu{ width:220px; float:left; height:auto; padding-top:60px;}
+.menu .level{width:180px; margin:0px auto; height:22px; line-height:22px; padding:3px 6px; cursor:pointer; }
+.menu .level1{color:#939da8; border-top:1px solid #37414b;border-bottom:1px solid #1f262d; font-size:14px; font-weight:bold; }
+.menu .level2{color:#939da8; background:#1e242b;border-bottom:1px dashed #37414b; }
+.menu .levelhide{  display:none;}
+.menu .levelbj{ background:#08c;color:#fff;}
+
+.main{ background:#FFF; height:auto; padding:6px;}
+.location{ height:30px; line-height:30px; font-size:12px; color:#666; border-bottom:1px solid #ddd;}
+
+.tables{ border:none;border-collapse:collapse;border-spacing:0; width:100%;}
+.tables th{ border:1px solid #ddd; color:#666; background:#efefef; font-weight:bold; height:24px;}
+.tables td{ border:1px solid #ddd;height:24px; color:#666;}
+.page{ width:100%; padding:6px; text-align:center; color:#666;}
+
+.float{float:left; margin:1px;}
+
+.fieldset{ font-size:12px; border:1px solid #ddd; padding:10px;}
+.fieldset legend{color:#666; }
+.fieldset dl{ height:24px; line-height:24px; color:#666; padding:3px 0px;}
+.fieldset dl .inp200{ width:200px; border:1px solid #ddd; color:#333; height:22px; line-height:22px;}
+
+.tools{width:auto;padding:6px 0px;}
+.tools .cmd100{width:100px;}
+.system_tree{width:auto;padding-left:10px;}
+.system_tree span{color:#666;}
+.system_tree ul{padding-left:6px; height:auto;}
+.system_tree li{padding-left:12px; height:auto;padding-top:4px;padding-bottom:2px;}
+.system_tree a{color:#069;text-decoration:none;}
+.system_tree a:link{color:#069;}
+.system_tree a:visited {color:#069;}
+.system_tree a:hover {color:red; text-decoration:underline;}
+.system_tree a:active {color:#069;}
+.small_loading{font-size:12px;padding:6px 10px;background:url(../images/loading.gif) no-repeat center center;display:none;}
+.error{width:400px;margin:0px auto;}
+.footer{height:24px; line-height:24px; color:#999;text-align:center;}

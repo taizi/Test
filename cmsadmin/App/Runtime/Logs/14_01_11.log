@@ -1,0 +1,52 @@
+[ 2014-01-11T09:34:02+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-11T09:34:02+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-01-11T09:40:32+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-11T11:35:26+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-01-11T11:55:47+08:00 ] 127.0.0.1 /cmsinfo/type/index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003335s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/type/index','Cmsinfo','Type','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"type\",\"index\"]}}','GET','magic','玄子',1389412547,'127.0.0.1') [ RunTime:0.000538s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/cmsinfo/type/index','Cmsinfo','Type','index','{\"get\":{\"_URL_\":[\"cmsinfo\",\"type\",\"index\"]}}','GET','magic','玄子',1389412547,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_type` [ RunTime:0.004214s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\TypeAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `webcms_news_type` LIMIT 1   [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\cmsadmin\App\Modules\Cmsinfo\Action\TypeAction.class.php 第 30 行.
+SQL: SELECT `id`,`type_name`,`description`,`status`,`sort` FROM `webcms_news_type` ORDER BY id desc LIMIT 0,30   [ RunTime:0.000463s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001835s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001900s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000865s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000906s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000765s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003627s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2014-01-11T11:56:07+08:00 ] 127.0.0.1 /Cmsinfo/Type/detect_name
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003433s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Cmsinfo/Type/detect_name','Cmsinfo','Type','detect_name','{\"get\":{\"_URL_\":[\"Cmsinfo\",\"Type\",\"detect_name\"]},\"post\":{\"t_name\":\"\\u9996\\u9875-\\u7f6e\\u9876\\u63a8\\u5e7f\",\"t_act\":\"insert\"}}','POST','magic','玄子',1389412567,'127.0.0.1') [ RunTime:0.000534s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Cmsinfo/Type/detect_name','Cmsinfo','Type','detect_name','{\"get\":{\"_URL_\":[\"Cmsinfo\",\"Type\",\"detect_name\"]},\"post\":{\"t_name\":\"\\u9996\\u9875-\\u7f6e\\u9876\\u63a8\\u5e7f\",\"t_act\":\"insert\"}}','POST','magic','玄子',1389412567,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_news_type` [ RunTime:0.004116s ]
+SQL: SELECT * FROM `webcms_news_type` WHERE ( `type_name` = '首页-置顶推广' ) LIMIT 1   [ RunTime:0.000485s ]
+
+[ 2014-01-11T13:56:29+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-11T13:56:35+08:00 ] ERR: (ThinkException) 无法加载模块:Recommend
+[ 2014-01-11T13:56:57+08:00 ] ERR: (ThinkException) 无法加载模块:Recommend
+[ 2014-01-11T14:10:59+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-11T14:11:04+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-11T14:11:16+08:00 ] ERR: (ThinkException) Model:_count您所请求的方法不存在！
+[ 2014-01-11T14:22:35+08:00 ] ERR: (ThinkException) Model:_count您所请求的方法不存在！

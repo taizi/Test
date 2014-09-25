@@ -1,0 +1,4 @@
+[ 2013-12-30T09:10:48+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2013-12-30T09:10:48+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2013-12-30T15:49:50+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2013-12-30T16:50:15+08:00 ] ERR: (ThinkException) Model:type_list您所请求的方法不存在！

@@ -1,0 +1,1019 @@
+[ 2014-01-14T09:12:38+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-14T09:12:38+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-01-14T09:12:38+08:00 ] ERR: (ThinkException) 无法加载模块:Favicon
+[ 2014-01-14T09:12:43+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-14T09:25:41+08:00 ] ERR: (ThinkException) 无法加载模块:RecommendAdv
+[ 2014-01-14T15:11:12+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-01-14T15:27:07+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003149s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684427,'127.0.0.1') [ RunTime:0.000462s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684427,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004311s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001540s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001039s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000809s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000833s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003653s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2014-01-14T15:27:47+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003463s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684467,'127.0.0.1') [ RunTime:0.000468s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684467,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004406s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001323s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000957s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000738s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000618s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003137s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000940s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2014-01-14T15:28:22+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003530s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684502,'127.0.0.1') [ RunTime:0.000452s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684502,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004429s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001390s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001463s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001311s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000725s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000704s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003738s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2014-01-14T15:29:05+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003213s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684545,'127.0.0.1') [ RunTime:0.000452s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684545,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004586s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001481s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001566s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000827s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000781s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003183s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000982s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2014-01-14T15:29:27+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003490s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684567,'127.0.0.1') [ RunTime:0.000469s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684567,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004015s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001374s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000721s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000554s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000594s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002799s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2014-01-14T15:29:40+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005788s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684580,'127.0.0.1') [ RunTime:0.000494s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684580,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004733s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001862s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000765s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000931s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000670s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003255s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-01-14T15:31:27+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005304s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684687,'127.0.0.1') [ RunTime:0.001048s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684687,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004034s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001621s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001816s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000821s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000575s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000978s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003385s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2014-01-14T15:31:35+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003624s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684695,'127.0.0.1') [ RunTime:0.000472s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684695,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004216s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001540s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000831s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000704s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000618s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003107s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2014-01-14T15:32:03+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003205s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684723,'127.0.0.1') [ RunTime:0.000448s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684723,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004022s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001749s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001826s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001066s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001971s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001476s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006326s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2014-01-14T15:32:12+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003447s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684732,'127.0.0.1') [ RunTime:0.000511s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684732,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004061s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001623s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001705s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001104s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000891s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000773s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003903s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001316s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2014-01-14T15:32:53+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003279s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684773,'127.0.0.1') [ RunTime:0.000457s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684773,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004149s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001516s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000699s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000823s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000659s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003698s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000984s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2014-01-14T15:33:14+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003676s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684794,'127.0.0.1') [ RunTime:0.000535s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684794,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004843s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001404s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001477s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001303s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001308s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001669s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006354s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001331s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2014-01-14T15:34:12+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005059s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684852,'127.0.0.1') [ RunTime:0.000907s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389684852,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004621s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001446s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001532s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000828s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001098s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003580s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000957s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2014-01-14T15:43:08+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.005661s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389685388,'127.0.0.1') [ RunTime:0.000539s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389685388,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004442s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001630s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001725s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001235s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000939s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004524s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2014-01-14T15:44:08+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004541s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389685448,'127.0.0.1') [ RunTime:0.000536s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389685448,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004947s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003160s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003305s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000750s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000739s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000688s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003245s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2014-01-14T15:48:51+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003685s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389685731,'127.0.0.1') [ RunTime:0.000559s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389685731,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.005212s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002135s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002243s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001065s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000723s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000850s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003696s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001786s ]
+
+[ 2014-01-14T15:58:28+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003784s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686308,'127.0.0.1') [ RunTime:0.000527s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686308,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.005139s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001384s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001470s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000722s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000769s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001701s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004433s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2014-01-14T15:58:44+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003908s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686324,'127.0.0.1') [ RunTime:0.000493s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686324,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004510s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001281s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001350s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001607s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000859s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004050s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2014-01-14T16:00:40+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004451s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686440,'127.0.0.1') [ RunTime:0.000502s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686440,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004544s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001833s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001914s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000722s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000684s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000674s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002989s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2014-01-14T16:00:43+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003622s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686443,'127.0.0.1') [ RunTime:0.000527s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686443,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004272s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001924s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002008s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000694s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001027s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000636s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003263s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2014-01-14T16:00:44+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003526s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686444,'127.0.0.1') [ RunTime:0.000524s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686444,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.005083s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001377s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001448s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000721s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000684s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000623s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003047s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000995s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2014-01-14T16:00:49+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003692s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686449,'127.0.0.1') [ RunTime:0.000517s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686449,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004994s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001849s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001989s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000758s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000739s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000634s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003079s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2014-01-14T16:00:55+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003336s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686455,'127.0.0.1') [ RunTime:0.000514s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389686455,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.006509s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002225s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002359s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000720s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000725s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000634s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003052s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2014-01-14T16:11:39+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004086s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389687099,'127.0.0.1') [ RunTime:0.000497s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389687099,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004638s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001417s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000780s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000744s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003290s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2014-01-14T16:14:42+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003734s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389687282,'127.0.0.1') [ RunTime:0.000451s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389687282,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004632s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001964s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002091s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000794s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000660s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000868s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003271s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001272s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2014-01-14T16:14:48+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004826s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389687288,'127.0.0.1') [ RunTime:0.000508s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389687288,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.005330s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001509s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000738s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000558s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000657s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003098s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001021s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2014-01-14T17:15:35+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003659s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690935,'127.0.0.1') [ RunTime:0.000591s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690935,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004749s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001439s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001521s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000962s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000947s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000705s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003743s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001021s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2014-01-14T17:15:40+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003333s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690940,'127.0.0.1') [ RunTime:0.000431s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690940,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004260s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001393s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000742s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000725s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000773s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003204s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2014-01-14T17:15:45+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004025s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690945,'127.0.0.1') [ RunTime:0.000540s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690945,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004619s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001425s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001508s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000744s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000717s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000675s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002989s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2014-01-14T17:15:50+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert?act=viewNews&pid=44
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003687s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=44','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"44\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690950,'127.0.0.1') [ RunTime:0.000476s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=44','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"44\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690950,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.005021s ]
+SQL: SELECT `news_id` FROM `webcms_hub_position` WHERE ( `position_id` = 44 )  [ RunTime:0.000477s ]
+NOTIC: [8] Undefined variable: newsId E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `webcms_news` [ RunTime:0.004786s ]
+SQL: SHOW COLUMNS FROM `webcms_news_details` [ RunTime:0.004637s ]
+SQL: SELECT COUNT(*) AS tp_count FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.id NOT IN ('72','73') ) AND ( News.status = 1 ) LIMIT 1   [ RunTime:0.000855s ]
+SQL: SELECT News.id AS news_id,News.title AS news_title,News.summary AS summary,News.keyword AS keyword,News.status AS news_status,News.sort AS news_sort,NewsDetails.subject AS details_subject,NewsDetails.content AS details_content,NewsDetails.author AS details_author,NewsDetails.source AS details_source,NewsDetails.date AS details_date FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.id NOT IN ('72','73') ) AND ( News.status = 1 ) ORDER BY NewsDetails.date desc LIMIT 0,30   [ RunTime:0.004409s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001728s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001793s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000742s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000712s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000795s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003437s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2014-01-14T17:15:54+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert?act=viewNews&pid=43
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003601s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=43','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"43\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690954,'127.0.0.1') [ RunTime:0.000533s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=43','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"43\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690954,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.006135s ]
+SQL: SELECT `news_id` FROM `webcms_hub_position` WHERE ( `position_id` = 43 )  [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `webcms_news` [ RunTime:0.004816s ]
+SQL: SHOW COLUMNS FROM `webcms_news_details` [ RunTime:0.004560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.status = 1 ) LIMIT 1   [ RunTime:0.000784s ]
+SQL: SELECT News.id AS news_id,News.title AS news_title,News.summary AS summary,News.keyword AS keyword,News.status AS news_status,News.sort AS news_sort,NewsDetails.subject AS details_subject,NewsDetails.content AS details_content,NewsDetails.author AS details_author,NewsDetails.source AS details_source,NewsDetails.date AS details_date FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.status = 1 ) ORDER BY NewsDetails.date desc LIMIT 0,30   [ RunTime:0.005051s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001494s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001556s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000746s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000707s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000667s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2014-01-14T17:16:33+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert?act=viewNews&pid=44
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003859s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=44','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"44\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690993,'127.0.0.1') [ RunTime:0.000539s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=44','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"44\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389690993,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004989s ]
+SQL: SELECT `news_id` FROM `webcms_hub_position` WHERE ( `position_id` = 44 )  [ RunTime:0.000731s ]
+NOTIC: [8] Undefined variable: newsId E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `webcms_news` [ RunTime:0.004396s ]
+SQL: SHOW COLUMNS FROM `webcms_news_details` [ RunTime:0.004534s ]
+SQL: SELECT COUNT(*) AS tp_count FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.id NOT IN ('72','73') ) AND ( News.status = 1 ) LIMIT 1   [ RunTime:0.000871s ]
+SQL: SELECT News.id AS news_id,News.title AS news_title,News.summary AS summary,News.keyword AS keyword,News.status AS news_status,News.sort AS news_sort,NewsDetails.subject AS details_subject,NewsDetails.content AS details_content,NewsDetails.author AS details_author,NewsDetails.source AS details_source,NewsDetails.date AS details_date FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.id NOT IN ('72','73') ) AND ( News.status = 1 ) ORDER BY NewsDetails.date desc LIMIT 0,30   [ RunTime:0.004873s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001695s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001768s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000779s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000718s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003375s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2014-01-14T17:16:44+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert?act=viewNews&pid=43
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003719s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=43','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"43\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691004,'127.0.0.1') [ RunTime:0.000899s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=43','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"43\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691004,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.005723s ]
+SQL: SELECT `news_id` FROM `webcms_hub_position` WHERE ( `position_id` = 43 )  [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `webcms_news` [ RunTime:0.004583s ]
+SQL: SHOW COLUMNS FROM `webcms_news_details` [ RunTime:0.004638s ]
+SQL: SELECT COUNT(*) AS tp_count FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.status = 1 ) LIMIT 1   [ RunTime:0.000840s ]
+SQL: SELECT News.id AS news_id,News.title AS news_title,News.summary AS summary,News.keyword AS keyword,News.status AS news_status,News.sort AS news_sort,NewsDetails.subject AS details_subject,NewsDetails.content AS details_content,NewsDetails.author AS details_author,NewsDetails.source AS details_source,NewsDetails.date AS details_date FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.status = 1 ) ORDER BY NewsDetails.date desc LIMIT 0,30   [ RunTime:0.004735s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001547s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001668s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000752s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000747s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000667s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003468s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php:99) E:\xampp\htdocs\cmsadmin\ThinkPHP\Lib\Core\View.class.php 第 88 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php:99) E:\xampp\htdocs\cmsadmin\ThinkPHP\Lib\Core\View.class.php 第 89 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php:99) E:\xampp\htdocs\cmsadmin\ThinkPHP\Lib\Core\View.class.php 第 90 行.
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001041s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2014-01-14T17:16:49+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert?act=viewNews&pid=34
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003665s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=34','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"34\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691009,'127.0.0.1') [ RunTime:0.000723s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=34','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"34\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691009,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004322s ]
+SQL: SELECT `news_id` FROM `webcms_hub_position` WHERE ( `position_id` = 34 )  [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `webcms_news` [ RunTime:0.006507s ]
+SQL: SHOW COLUMNS FROM `webcms_news_details` [ RunTime:0.004758s ]
+SQL: SELECT COUNT(*) AS tp_count FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.status = 1 ) LIMIT 1   [ RunTime:0.000777s ]
+SQL: SELECT News.id AS news_id,News.title AS news_title,News.summary AS summary,News.keyword AS keyword,News.status AS news_status,News.sort AS news_sort,NewsDetails.subject AS details_subject,NewsDetails.content AS details_content,NewsDetails.author AS details_author,NewsDetails.source AS details_source,NewsDetails.date AS details_date FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.status = 1 ) ORDER BY NewsDetails.date desc LIMIT 0,30   [ RunTime:0.005208s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001610s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001729s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000780s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000726s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000657s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003322s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php:99) E:\xampp\htdocs\cmsadmin\ThinkPHP\Lib\Core\View.class.php 第 88 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php:99) E:\xampp\htdocs\cmsadmin\ThinkPHP\Lib\Core\View.class.php 第 89 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php:99) E:\xampp\htdocs\cmsadmin\ThinkPHP\Lib\Core\View.class.php 第 90 行.
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2014-01-14T17:21:47+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004826s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691307,'127.0.0.1') [ RunTime:0.000623s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691307,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.006229s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001729s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001836s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000816s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000690s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000749s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003318s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001124s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2014-01-14T17:23:24+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003179s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691404,'127.0.0.1') [ RunTime:0.000705s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691404,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.006551s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001526s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000748s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001011s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000653s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003338s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000938s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2014-01-14T17:28:50+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert?act=viewNews&pid=44
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003229s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=44','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"44\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691730,'127.0.0.1') [ RunTime:0.000475s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=44','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"44\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691730,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004450s ]
+SQL: SELECT `news_id` FROM `webcms_hub_position` WHERE ( `position_id` = 44 )  [ RunTime:0.000413s ]
+NOTIC: [8] Undefined variable: newsId E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `webcms_news` [ RunTime:0.004582s ]
+SQL: SHOW COLUMNS FROM `webcms_news_details` [ RunTime:0.004481s ]
+SQL: SELECT COUNT(*) AS tp_count FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.id NOT IN ('72','73') ) AND ( News.status = 1 ) LIMIT 1   [ RunTime:0.000780s ]
+SQL: SELECT News.id AS news_id,News.title AS news_title,News.summary AS summary,News.keyword AS keyword,News.status AS news_status,News.sort AS news_sort,NewsDetails.subject AS details_subject,NewsDetails.content AS details_content,NewsDetails.author AS details_author,NewsDetails.source AS details_source,NewsDetails.date AS details_date FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.id NOT IN ('72','73') ) AND ( News.status = 1 ) ORDER BY NewsDetails.date desc LIMIT 0,30   [ RunTime:0.003994s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001455s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000760s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001057s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000920s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003808s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2014-01-14T17:29:04+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert?act=viewNews&pid=43
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003172s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=43','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"43\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691744,'127.0.0.1') [ RunTime:0.000455s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=43','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"43\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389691744,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.003956s ]
+SQL: SELECT `news_id` FROM `webcms_hub_position` WHERE ( `position_id` = 43 )  [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `webcms_news` [ RunTime:0.004284s ]
+SQL: SHOW COLUMNS FROM `webcms_news_details` [ RunTime:0.004418s ]
+SQL: SELECT COUNT(*) AS tp_count FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.status = 1 ) LIMIT 1   [ RunTime:0.000729s ]
+SQL: SELECT News.id AS news_id,News.title AS news_title,News.summary AS summary,News.keyword AS keyword,News.status AS news_status,News.sort AS news_sort,NewsDetails.subject AS details_subject,NewsDetails.content AS details_content,NewsDetails.author AS details_author,NewsDetails.source AS details_source,NewsDetails.date AS details_date FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.status = 1 ) ORDER BY NewsDetails.date desc LIMIT 0,30   [ RunTime:0.004764s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001773s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001849s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000752s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001197s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000687s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003628s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2014-01-14T17:43:01+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.003301s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389692581,'127.0.0.1') [ RunTime:0.000565s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert','Recommend','RecommendNews','insert','{\"get\":{\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389692581,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004108s ]
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.004090s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001718s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001783s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000752s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000762s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000659s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003162s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2014-01-14T17:44:24+08:00 ] 127.0.0.1 /Recommend/RecommendNews/insert?act=viewNews&pid=44
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `webcms_admin_log` [ RunTime:0.004458s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `webcms_admin_log`
+SQL: INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=44','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"44\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389692664,'127.0.0.1') [ RunTime:0.000408s ]
+ERR: Table 'web_cms.webcms_admin_log' doesn't exist
+ [ SQL语句 ] : INSERT INTO `webcms_admin_log` (`url`,`node1`,`node2`,`node3`,`data`,`reqtype`,`username`,`truename`,`create_time`,`ip`) VALUES ('/Recommend/RecommendNews/insert?act=viewNews&pid=44','Recommend','RecommendNews','insert','{\"get\":{\"act\":\"viewNews\",\"pid\":\"44\",\"_URL_\":[\"Recommend\",\"RecommendNews\",\"insert\"]}}','GET','magic','玄子',1389692664,'127.0.0.1')
+SQL: SHOW COLUMNS FROM `webcms_hub_position` [ RunTime:0.004293s ]
+SQL: SHOW COLUMNS FROM `webcms_news_position` [ RunTime:0.005714s ]
+SQL: SELECT `news_id` FROM `webcms_hub_position` WHERE ( `position_id` = 44 )  [ RunTime:0.000434s ]
+NOTIC: [8] Undefined variable: newsId E:\xampp\htdocs\cmsadmin\App\Modules\Recommend\Action\RecommendNewsAction.class.php 第 72 行.
+SQL: SELECT * FROM `webcms_news_position` WHERE ( `id` = 44 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `webcms_news` [ RunTime:0.006002s ]
+SQL: SHOW COLUMNS FROM `webcms_news_details` [ RunTime:0.004698s ]
+SQL: SELECT COUNT(*) AS tp_count FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.id NOT IN ('72','73') ) AND ( News.status = 1 ) LIMIT 1   [ RunTime:0.000821s ]
+SQL: SELECT News.id AS news_id,News.title AS news_title,News.summary AS summary,News.keyword AS keyword,News.status AS news_status,News.sort AS news_sort,NewsDetails.subject AS details_subject,NewsDetails.content AS details_content,NewsDetails.author AS details_author,NewsDetails.source AS details_source,NewsDetails.date AS details_date FROM webcms_news News LEFT JOIN webcms_news_details NewsDetails ON News.id=NewsDetails.nid WHERE ( News.id NOT IN ('72','73') ) AND ( News.status = 1 ) ORDER BY NewsDetails.date desc LIMIT 0,30   [ RunTime:0.004906s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001453s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001518s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000772s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000775s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001025s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003618s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001157s ]
+
